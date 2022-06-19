@@ -28,7 +28,7 @@ jobs:
         run: sudo apt install -y google-chrome-stable
       # Chromium is already installed!
       - name: Install software
-        run: sudo apt install -y chromium-browser
+        run: sudo apt install -y chromium-chromedriver
         
       - name: execute py script # run main.py to scrape data
         env: 
