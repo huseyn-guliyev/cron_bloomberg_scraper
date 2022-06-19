@@ -25,7 +25,7 @@ jobs:
           pip install pandas bs4 requests numpy webdriver_manager selenium
       
       - name: Remove Chrome
-        run: sudo apt purge google-chrome-stable
+        run: sudo apt install -y google-chrome-stable
       # Chromium is already installed!
       - name: Install software
         run: sudo apt install -y chromium-browser
